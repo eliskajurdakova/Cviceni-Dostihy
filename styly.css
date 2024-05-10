@@ -53,3 +53,13 @@ ul::after {
 }
 
 /* ------------- pod čáru přijdou tvé styly ------------- */
+
+ul:hover li{
+	margin-left: 0;
+}
+
+
+li:hover {
+	transition: transform 5s;
+}
+
